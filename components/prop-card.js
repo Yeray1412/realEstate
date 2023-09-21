@@ -49,7 +49,7 @@ const PropCard = ({ imgUrl, name, price }) => {
             alt=""
             src="https://yeray1412.github.io/realState/ellipse-1@2x.png"
           />
-          <div className="relative leading-[17.42px] font-medium">
+          <div className="relative leading-[17.42px] font-medium ml-2">
             Jenny Wilson
           </div>
         </div>
