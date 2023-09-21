@@ -1,0 +1,84 @@
+const PropCard = ({ imgUrl, name, price }) => {
+  return (
+    <div className="rounded-3xs bg-gray-white box-border w-[350px] h-[466.99px] flex flex-col py-[15px] px-[13px] items-start justify-start gap-[23px] text-left text-[14.51px] text-gray-700 font-body-large-400 border-[1px] border-solid border-whitesmoke-100 hover:bg-gainsboro hover:cursor-pointer sm:w-[100%!important] sm:mb-5">
+      <img
+        className=" relative rounded-3xs max-w-full overflow-hidden h-[200px] shrink-0 object-cover"
+        alt=""
+        src={imgUrl}
+      />
+      <div className=" flex flex-row p-2.5 items-start justify-start">
+        <div className="flex-1 relative leading-[20.32px] font-medium">
+          {name}
+        </div>
+      </div>
+      <div className=" flex flex-row p-2.5 items-start justify-start text-[13.55px] text-primary-500">
+        <div className="relative leading-[18.98px] font-semibold">{price}</div>
+      </div>
+      <div className=" flex flex-row py-0 px-2.5 items-start justify-start gap-[17px] text-[10.84px] text-gray-500">
+        <div className="flex flex-row items-center justify-start gap-[4.35px]">
+          <img
+            className="relative w-[17.42px] h-[17.42px]"
+            alt=""
+            src="https://yeray1412.github.io/realState/car4.svg"
+          />
+          <div className="relative leading-[16.27px] font-medium">4</div>
+        </div>
+        <div className="flex flex-row items-center justify-start gap-[4.35px]">
+          <img
+            className="relative w-[17.42px] h-[17.42px]"
+            alt=""
+            src="https://yeray1412.github.io/realState/bathtub5.svg"
+          />
+          <div className="relative leading-[16.27px] font-medium">4</div>
+        </div>
+        <div className="flex flex-row items-center justify-start gap-[4.35px]">
+          <img
+            className="relative w-[17.42px] h-[17.42px]"
+            alt=""
+            src="https://yeray1412.github.io/realState/arrowsout3.svg"
+          />
+          <div className="relative leading-[16.27px] font-medium">
+            2,096.00 ft
+          </div>
+        </div>
+      </div>
+      <div className=" flex flex-row items-center justify-between text-center text-[11.61px]">
+        <div className="flex flex-row items-center justify-start gap-[5.81px]">
+          <img
+            className="relative rounded-[50%] w-[27.57px] h-[27.57px] object-cover"
+            alt=""
+            src="https://yeray1412.github.io/realState/ellipse-1@2x.png"
+          />
+          <div className="relative leading-[17.42px] font-medium">
+            Jenny Wilson
+          </div>
+        </div>
+        <div className="flex flex-row items-start justify-start gap-[8.71px]">
+          <div className="rounded-[1.45px] bg-primary-50 flex flex-row p-[2.902620315551758px] items-start justify-start">
+            <img
+              className="relative w-[14.51px] h-[14.51px]"
+              alt=""
+              src="https://yeray1412.github.io/realState/sharenetwork5.svg"
+            />
+          </div>
+          <div className="rounded-[1.45px] bg-primary-50 flex flex-row p-[2.902620315551758px] items-start justify-start">
+            <img
+              className="relative w-[14.51px] h-[14.51px]"
+              alt=""
+              src="https://yeray1412.github.io/realState/heart2.svg"
+            />
+          </div>
+          <div className="rounded-[1.45px] bg-primary-50 flex flex-row p-[2.902620315551758px] items-start justify-start">
+            <img
+              className="relative w-[14.51px] h-[14.51px]"
+              alt=""
+              src="https://yeray1412.github.io/realState/plus3.svg"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default PropCard;
