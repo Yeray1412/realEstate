@@ -23,7 +23,7 @@ const PropertiesGridView = () => {
   return (
     <div className="relative bg-gray-white w-full flex flex-col items-start justify-start text-center text-33xl text-gray-white font-body-regular-400">
       <Header />
-      <div className="self-stretch h-60 flex flex-col items-center justify-center bg-[url('/category@3x.png')] bg-cover bg-no-repeat bg-[top]">
+      <div className="self-stretch h-60 flex flex-col items-center justify-center bg-[url('https://yeray1412.github.io/realState/category@3x.png')] bg-cover bg-no-repeat bg-[top]">
         <div className="flex flex-col items-center justify-start gap-[12px]">
           <div className="relative leading-[72px] font-semibold">
             Properties
@@ -38,8 +38,16 @@ const PropertiesGridView = () => {
         <div className="w-[272px] flex flex-row items-center justify-start">
           <div className="flex flex-row items-end justify-start gap-[16px]">
             <div className="flex flex-row items-start justify-start gap-[8px]">
-              <img className="relative w-6 h-6" alt="" src="/listbullets.svg" />
-              <img className="relative w-6 h-6" alt="" src="/squaresfour.svg" />
+              <img
+                className="relative w-6 h-6"
+                alt=""
+                src="https://yeray1412.github.io/realState/listbullets.svg"
+              />
+              <img
+                className="relative w-6 h-6"
+                alt=""
+                src="https://yeray1412.github.io/realState/squaresfour.svg"
+              />
             </div>
             <div className="relative leading-[24px]">Sort by:</div>
             <Dropdown menu={{ items }} trigger={["hover"]}>
