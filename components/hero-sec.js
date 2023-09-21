@@ -63,7 +63,7 @@ const HeroSec = () => {
   }, [router]);
 
   return (
-    <div className="self-stretch flex flex-col py-[120px] px-[30px] items-center justify-start bg-[url('/hero-section@3x.png')] bg-cover bg-no-repeat bg-[top] text-center text-33xl text-gray-white font-body-regular-400">
+    <div className="self-stretch flex flex-col py-[120px] px-[30px] items-center justify-start bg-[url('https://yeray1412.github.io/realState/hero-section@3x.png')] bg-cover bg-no-repeat bg-[top] text-center text-33xl text-gray-white font-body-regular-400">
       <div className="self-stretch flex flex-col items-center justify-center gap-[62px] max-w-[95%px]">
         <div className="self-stretch flex flex-col items-center justify-start gap-[24px] md:max-w-full">
           <div className="self-stretch relative leading-[72px] font-semibold">
